@@ -1,4 +1,4 @@
-# survey
+# comp-prog
 
 Still a hack/bodge/whatchamacallit.
 Based on [mt-caret/nippo\_src](https://github.com/mt-caret/nippo_src)
