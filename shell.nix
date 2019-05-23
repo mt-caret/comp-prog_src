@@ -1,5 +1,5 @@
 let
-  pkgs = import (fetchTarball https://github.com/NixOS/nixpkgs-channels/archive/nixos-18.03.tar.gz) {};
+  pkgs = import (fetchTarball https://github.com/NixOS/nixpkgs-channels/archive/nixos-19.03.tar.gz) {};
 in
   pkgs.stdenv.mkDerivation {
     name = "nippo-builder";
@@ -10,6 +10,7 @@ in
       entr
       optipng
       tmux
+      xsel
     ];
     shellHook = ''
       make watch -j4
